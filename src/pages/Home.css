@@ -1,0 +1,93 @@
+#home {
+    height: 100vh;
+    max-width: 100%;
+    background-image: url("./Images/homepage5.jfif");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    /*opacity: 0.8;*/
+    z-index: -1;
+}
+
+.home-text {
+    padding-top: 40px;
+}
+
+#h4,#h2,#h3 {
+    font-weight:900;  
+  animation: slide-in 0.9s ease-out;
+    margin-left: 24%;
+    color: rgb(255, 255, 255);
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+@keyframes slide-in {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+#h4 {
+    font-size: 5rem;
+    margin-top: 0px;
+    margin-bottom: 2px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#h2 {
+    font-size: 3rem;
+}
+
+#h3 {
+    font-size: 2rem;
+}
+
+
+@media (max-width: 768px){
+
+    #h2 {
+        font-size: 2rem;
+    }
+    #h3 {
+        font-size: 2rem;
+    }
+    #h4 {
+        font-size: 4rem;
+    }
+        
+
+    }
+
+
+#button {
+    float: right;
+    margin-top: 90px;
+    margin-right: 70px;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    height: auto;
+    font-size: 1em;
+    animation: pulse 1s infinite;
+    
+}
+
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  
+  
+
