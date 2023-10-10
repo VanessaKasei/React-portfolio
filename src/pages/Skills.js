@@ -9,7 +9,7 @@ import firebase1logo from "./Images/firebase1logo.png";
 
 function Skills() {
     return (
-        <div className="skills-container">
+        <div className="skills-container" id="skills">
             <h1 id="my-skills">SKILLS</h1>
             <div className="row1">
                 <img src={htmllogo} id="html" alt="html logo" />
