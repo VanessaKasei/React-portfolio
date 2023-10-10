@@ -1,5 +1,5 @@
 #home {
-    height: 100vh;
+    height: 80vh;
     max-width: 100%;
     background-image: url("./Images/homepage5.jfif");
     background-size: cover; 
@@ -10,15 +10,16 @@
 }
 
 .home-text {
-    padding-top: 40px;
+    padding-top: 100px;
 }
 
 #h4,#h2,#h3 {
-    font-weight:900;  
+  font-weight:900;  
+  font-size: 2rem;
   animation: slide-in 0.9s ease-out;
-    margin-left: 24%;
-    color: rgb(255, 255, 255);
-   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 24%;
+  color: rgb(255, 255, 255);
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }
 

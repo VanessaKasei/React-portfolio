@@ -1,7 +1,7 @@
 import React from "react";
 import './Home.css'
 import { Link } from "react-scroll";
-import homepage3 from "./Images/homepage3.jpg";
+//import homepage3 from "./Images/homepage3.jpg";
 
 function Home() {
     return (
@@ -14,7 +14,7 @@ function Home() {
                 <h1 id="h4">Vanessa Kasei</h1>
                 <h2 id="h2">Front-end Developer</h2>
             </div>
-            <div className="button-conainer">
+            <div className="button-container">
                 <Link to="contact">
                     <button id="button">Let's connect!</button>
                 </Link>
