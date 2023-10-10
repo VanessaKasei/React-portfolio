@@ -11,8 +11,7 @@ function Contact () {
             </div>
             <div className='contact-container'>
                 <p id='contact'>CONTACT US TODAY:  
-                <i className='fa fa-phone' id='phone'>  +254 710705715</i>
-                <i className='fa fa-envelope' id='mail'> :kaseivanessa@gmail.com</i></p>
+                <i className='fa fa-phone' id='phone'>  +254 710705715</i></p>
             </div>
         </section>
     );
