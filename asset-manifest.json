@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/React-portfolio/static/css/main.6b658ee4.css",
+    "main.js": "/React-portfolio/static/js/main.4eed7ab0.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/React-portfolio/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/React-portfolio/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/React-portfolio/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/PassportPhoto.jpg": "/React-portfolio/static/media/PassportPhoto.e35e13d5747c7d26302a.jpg",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/React-portfolio/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/React-portfolio/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/homepage5.jfif": "/React-portfolio/static/media/homepage5.c5f27ff717f262cf9dfc.jfif",
+    "static/media/css1.png": "/React-portfolio/static/media/css1.58dfbebae4a02001b50e.png",
+    "static/media/js1logo.png": "/React-portfolio/static/media/js1logo.3ade557547ee3603cbf9.png",
+    "static/media/htmllogo.png": "/React-portfolio/static/media/htmllogo.4c66eac808f876db779b.png",
+    "static/media/figma1logo.png": "/React-portfolio/static/media/figma1logo.73969d0c6fac20e90353.png",
+    "index.html": "/React-portfolio/index.html",
+    "main.6b658ee4.css.map": "/React-portfolio/static/css/main.6b658ee4.css.map",
+    "main.4eed7ab0.js.map": "/React-portfolio/static/js/main.4eed7ab0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b658ee4.css",
+    "static/js/main.4eed7ab0.js"
+  ]
+}
