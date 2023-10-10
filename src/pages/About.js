@@ -3,7 +3,7 @@ import PassportPhoto from "./Images/PassportPhoto.jpg";
 
 function About() {
   return (
-    <section className="bg-gray-100 p-5">
+    <section className="bg-gray-100 p-5" id="about">
       <div className="container mx-auto">
         <h1 className="font-extrabold font-sans text-center text-3xl mb-4">
           About Me
@@ -21,8 +21,8 @@ function About() {
         <div className="resume mt-5">
           <a
             href="https://drive.google.com/file/d/1ZjOGyQyyddmtooy4q4fNvNPEf-rMchFe/view?usp=sharing"
-            target="_blank" // Add this if you want the link to open in a new tab
-            rel="noopener noreferrer" // Recommended for security
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <button
               type="button"

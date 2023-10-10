@@ -1,7 +1,5 @@
-/* Footer.css */
-
-.footer { /* Customize the background color */
-    color: #fff; /* Customize the text color */
+.footer { 
+    color: #fff; 
     text-align: center;
     padding: 20px 0;
   }

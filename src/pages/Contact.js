@@ -10,7 +10,7 @@ function Contact () {
                 <i className="fa fa-twitter" id="twitter-icon"></i>
             </div>
             <div className='contact-container'>
-                <p id='contact'>CONTACT US TODAY:  
+                <p id='contact'>Contact me on:  
                 <i className='fa fa-phone' id='phone'>  +254 710705715</i></p>
             </div>
         </section>
