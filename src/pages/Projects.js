@@ -37,7 +37,7 @@ function Projects({title, deploymentLink}) {
                     <p>This is a website that showcases my work, accomplishments, skills
                         and expertise.
                     </p>
-                    <a href="https://vanessakasei.github.io/React/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://vanessakasei.github.io/React-portfolio/" target="_blank" rel="noopener noreferrer">
                     <button className="view-button">View Project</button>
                     </a>
                 </div>
