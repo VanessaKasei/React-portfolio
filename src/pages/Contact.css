@@ -1,0 +1,49 @@
+#contact {
+    height: 30vh;
+    max-width: 100%;
+    background-color: #e26e2b;
+    padding:20px 0;
+}
+
+#contact-info {
+    font-weight:900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+}
+
+#myicons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#whatsapp-icon {
+    margin: 20px;
+    width: 5%;
+    height: auto;
+    font-size: 24px;
+    transition: transform (0.2s);
+}
+
+#linkedin-icon {
+    margin: 20px;
+    width: 5%;
+    height: auto;
+    font-size: 24px;
+    transition: transform (0.2s);
+}
+
+#twitter-icon {
+    margin: 20px;
+    max-width: 5%;
+    height: auto;
+    font-size: 24px;
+    transition: transform (0.2s);
+}
+
+#twitter-icon:hover,
+#whatsapp-icon:hover,
+#linkedin-icon:hover {
+    transform: scale(1.3);
+}
+
