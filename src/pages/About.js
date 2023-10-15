@@ -15,10 +15,7 @@ function About() {
              well-crafted websites and applications that not only look great but also 
              provide meaningful solutions using technologies such as JavaScript, ReactJs
              TailwindCSS and Flutter. My approach to web development is to merge creativity
-             with functionality. When I'm not coding, you can find me reading or riding bicycles.
-             Thank you for visiting my portfolio. Feel free to explore my work, and if you
-             have a project in mind or just want to chat about web development, contact
-             me via the social media platforms provided.
+             with functionality.
              Let's build something amazing together!
           </p>
         </div>
