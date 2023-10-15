@@ -9,17 +9,17 @@ import firebase1logo from "./Images/firebase1logo.png";
 
 function Skills() {
     return (
-        <div className="skills-container" id="skills">
-            <h1 id="my-skills">SKILLS</h1>
+        <div id="skills">
+            <h1 id="my-skills">Skills</h1>
             <div className="row1">
-                <img src={htmllogo} id="html" alt="html logo" />
-                <img src={css1} id="css" alt="css logo" />
-                <img src={js1logo} id="js" alt="javascript logo" />
+                <img src={htmllogo} id="logo" alt="html logo" />
+                <img src={css1} id="logo" alt="css logo" />
+                <img src={js1logo} id="logo" alt="javascript logo" />
+                <img src={reactlogo} id="logo" alt="react logo" />
             </div>
             <div className="row2">
-                <img src={reactlogo} id="react" alt="react logo" />
-                <img src={figma1logo} id="figma" alt="figma logo" />
-                <img src={firebase1logo} id="firebase" alt="firebase logo" />
+                <img src={figma1logo} id="logo" alt="figma logo" />
+                <img src={firebase1logo} id="logo" alt="firebase logo" />
             </div>
         </div>
     );

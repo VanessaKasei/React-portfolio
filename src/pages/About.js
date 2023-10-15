@@ -1,24 +1,28 @@
 import React from "react";
 import PassportPhoto from "./Images/PassportPhoto.jpg";
+import './About.css'
 
 function About() {
   return (
-    <section className="bg-gray-100 p-5" id="about">
-      <div className="container mx-auto">
-        <h1 className="font-extrabold font-sans text-center text-3xl mb-4">
-          About Me
+    <section id="about">
+      <h1 className="title2">
+        About Me
         </h1>
-        <div className="about-container max-w-full">
-          <img src={PassportPhoto} className="max-w-20% h-auto" alt="me" />
-          <p className="max-w-2xl mt-5 text-lg text-gray-700">
-            I am a highly skilled and competent web and mobile app developer with a 
-            focus in creating responsive, visually appealing and user-friendly applications
-            that meet the users requirements using technologies such as JavaScript, ReactJs,
-            TailwindCSS and Flutter. Let's connect and explore how we can innovate and create
-            teogether.
+        <div className="about-container">
+          <img className="myphoto" src={PassportPhoto} alt="me" />
+          <p>I'm a passionate web and mobile developer with a strong love for creating
+             beautiful and functional digital experiences. I thrive on turning ideas into
+             well-crafted websites and applications that not only look great but also 
+             provide meaningful solutions using technologies such as JavaScript, ReactJs
+             TailwindCSS and Flutter. My approach to web development is to merge creativity
+             with functionality. When I'm not coding, you can find me reading or riding bicycles.
+             Thank you for visiting my portfolio. Feel free to explore my work, and if you
+             have a project in mind or just want to chat about web development, contact
+             me via the social media platforms provided.
+             Let's build something amazing together!
           </p>
         </div>
-        <div className="resume mt-5">
+        <div className="resume">
           <a
             href="https://drive.google.com/file/d/1ZjOGyQyyddmtooy4q4fNvNPEf-rMchFe/view?usp=sharing"
             target="_blank"
@@ -26,13 +30,12 @@ function About() {
           >
             <button
               type="button"
-              className="rounded-lg bg-blue-800 text-white py-2 px-4 transition-transform duration-200 hover:scale-90"
+              className="download"
             >
               Download Resume
             </button>
           </a>
         </div>
-      </div>
     </section>
   );
 }

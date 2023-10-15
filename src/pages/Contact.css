@@ -1,7 +1,7 @@
 #contact {
-    height: 30vh;
+    height: fit-content;
     max-width: 100%;
-    background-color: #e26e2b;
+    /*background-color: #e26e2b;*/
     padding:20px 0;
 }
 
@@ -15,9 +15,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    color: black;
 }
 
+
 #whatsapp-icon {
+    margin: 20px;
+    width: 5%;
+    height: auto;
+    font-size: 24px;
+    transition: transform (0.2s);
+}
+
+#github-icon {
     margin: 20px;
     width: 5%;
     height: auto;
@@ -43,7 +53,12 @@
 
 #twitter-icon:hover,
 #whatsapp-icon:hover,
-#linkedin-icon:hover {
+#linkedin-icon:hover,
+#github-icon:hover {
     transform: scale(1.3);
 }
 
+.contact-container p {
+    text-align: center;
+    font-weight: 900;
+}

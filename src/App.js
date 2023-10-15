@@ -7,6 +7,7 @@ import Contact from "./pages/Contact";
 import Projects from "./pages/Projects";
 import Footer from "./pages/Footer";
 import 'font-awesome/css/font-awesome.min.css';
+import './style.css';
 
 function App() {
   return (
