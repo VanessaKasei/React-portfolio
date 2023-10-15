@@ -21,7 +21,7 @@ function About() {
         </div>
         <div className="resume">
           <a
-            href="https://drive.google.com/file/d/1ZjOGyQyyddmtooy4q4fNvNPEf-rMchFe/view?usp=sharing"
+            href="https://drive.google.com/file/d/1sx7e1fVtill2VYNwhPErUk5eGTUWXn--/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
